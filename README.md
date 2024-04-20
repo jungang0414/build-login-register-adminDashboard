@@ -26,3 +26,11 @@ CSS 使用 Live Sass Compiler 插件 字形使用 Google Fonts(Montserrat)
 1. 透過 react-router-dom createBrowserRouter, RouterProvider 創建路由
 2. 新增 Login 首頁的畫面 引入素材
 3. 需要用到 icon 所以 npm install react-icons
+
+#### 在 Components 建立登入頁面
+
+###### 2024/04/20
+
+1. 編寫登入頁面 CSS 樣式. 未完成
+2. 下載 firebase 套件, 實作 hosting 託管, 並 deploy.
+3. https://login-register-64948.web.app/
