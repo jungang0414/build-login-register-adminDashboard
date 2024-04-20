@@ -1,10 +1,12 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from "react";
 import "./Login.css";
+import "../../App.css";
 import { Link } from "react-router-dom";
 
 // 導入 icon套件
 import { FaUserShield } from "react-icons/fa";
+import { BsFillShieldLockFill } from "react-icons/bs";
+import { AiOutlineSwapRight } from "react-icons/ai";
+
 // 導入我們的資料
 import video from "../../LoginAssets/video.mp4";
 import logo from "../../LoginAssets/logo.png";
@@ -12,7 +14,7 @@ const Login = () => {
   return (
     <div className="loginPage flex">
       <div className="container flex">
-        {/* <div className="videoDiv">
+        <div className="videoDiv">
           <video src={video} autoPlay muted loop></video>
 
           <div className="textDiv">
@@ -26,7 +28,7 @@ const Login = () => {
               <button className="btn">Sign Up</button>
             </Link>
           </div>
-        </div> */}
+        </div>
 
         <div className="formDiv flex">
           <div className="headerDiv">
@@ -37,12 +39,29 @@ const Login = () => {
           <form action="" className="form grid">
             <span>Login Status will go here</span>
             <div className="inputDiv">
-              <label htmlFor="username">Username</label>
+              <label htmlFor="username">使用者名稱</label>
               <div className="input flex">
                 <FaUserShield className="icon" />
-                <input type="text" id="username" />
+                <input type="text" id="username" placeholder="Enter Username" />
               </div>
             </div>
+
+            <div className="inputDiv">
+              <label htmlFor="password">密碼</label>
+              <div className="input flex">
+                <BsFillShieldLockFill className="icon" />
+                <input type="text" id="password" placeholder="Enter Password" />
+              </div>
+            </div>
+
+            <button type="submit" className="btn flex">
+              <span>登入</span>
+              <AiOutlineSwapRight className="icon" />
+            </button>
+
+            <span className="forgotPassword">
+              忘記你的密碼? <a href="">Click Here</a>
+            </span>
           </form>
         </div>
       </div>
