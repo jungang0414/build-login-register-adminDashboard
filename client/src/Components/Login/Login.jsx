@@ -37,7 +37,7 @@ const Login = () => {
           </div>
 
           <form action="" className="form grid">
-            <span>Login Status will go here</span>
+            <span className="showMessage">Login Status will go here</span>
             <div className="inputDiv">
               <label htmlFor="username">使用者名稱</label>
               <div className="input flex">
