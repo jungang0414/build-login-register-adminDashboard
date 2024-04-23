@@ -40,3 +40,8 @@ CSS 使用 Live Sass Compiler 插件 字形使用 Google Fonts(Montserrat)
 1. 編寫 Login.jsx CSS , Register.jsx 樣式完成
 2. 頁面路由設定 Login Register 可以相互切換
 3. build 並推送至 hosting
+
+###### 2024/04/24
+
+1. 設定於 602px, 678px, 927px 的 RWD 樣式
+2. build 並推送至 hosting

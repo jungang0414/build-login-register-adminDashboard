@@ -13,7 +13,7 @@ import video from "../../LoginAssets/video.mp4";
 import logo from "../../LoginAssets/logo.png";
 const Register = () => {
   return (
-    <div className="RegisterPage flex">
+    <div className="registerPage flex">
       <div className="container flex">
         <div className="videoDiv">
           <video src={video} autoPlay muted loop></video>
